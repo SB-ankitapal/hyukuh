@@ -1,0 +1,34 @@
+title: HubspotDeal
+x-stoplight:
+  id: o0ogzrek4v8y1
+type: object
+description: Fields to be written from Flex to the Hubspot Deal Entity
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: z5b39l0fz4ske
+  flexCompanyId:
+    type: string
+    x-stoplight:
+      id: n3u3oy220245k
+    format: uuid
+  creditLimit:
+    type: number
+    x-stoplight:
+      id: 8922jrqynb8yx
+  lithicId:
+    type: string
+    x-stoplight:
+      id: 8ylb94sbwwje7
+    format: uuid
+  unitId:
+    type: string
+    x-stoplight:
+      id: bjkndbccek80q
+    format: uuid
+  creditLineApproved:
+    type: string
+    x-stoplight:
+      id: 8d6xc8ld99w9s
+    format: date-time

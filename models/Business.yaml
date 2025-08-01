@@ -1,0 +1,101 @@
+title: Business
+x-stoplight:
+  id: kmlul5qo380e7
+type: object
+description: Represents a business
+properties:
+  id:
+    type: string
+    format: uuid
+    description: Business identifier
+    readOnly: true
+    x-stoplight:
+      id: 223d6npj2346r
+  accountId:
+    type: string
+    format: uuid
+    description: Account identifier
+    readOnly: true
+    x-stoplight:
+      id: 8gb4szn8rqul8
+  active:
+    type: boolean
+    description: A value indicating if the business is enabled in the system
+    default: true
+    x-stoplight:
+      id: ztovq4ll2sx71
+  name:
+    type: string
+    description: The registered name of the business
+    x-stoplight:
+      id: x4p6v07anm8of
+  dba:
+    type: string
+    description: '**D**oing **B**usiness **A**s name'
+    x-stoplight:
+      id: 4d71iynal18kv
+  taxId:
+    type: string
+    description: The tax identifier for the business
+    x-stoplight:
+      id: l2vzr86uigpdc
+  formationDate:
+    type: string
+    format: date-time
+    description: The date the business was registered
+    x-stoplight:
+      id: 0o68ojr6fsc54
+  formationLocation:
+    type: string
+    description: The location the business was registered
+    x-stoplight:
+      id: 920occsi825kc
+  type:
+    type: string
+    description: 'The legal type of the business: LLC, S-Corp, Non-profit, etc'
+    x-stoplight:
+      id: p1yj4zz2pg0lk
+  website:
+    type: string
+    format: uri
+    description: The website for the business
+    x-stoplight:
+      id: zwobfxveqxaj5
+  industry:
+    type: string
+    description: The industry of the business
+    x-stoplight:
+      id: 6j89x6chxbax2
+  sicCode:
+    type: string
+    description: 'The [Standard Industrial Classification](https://en.wikipedia.org/wiki/Standard_Industrial_Classification) of the business'
+    minLength: 4
+    maxLength: 4
+    x-stoplight:
+      id: qjo9p09wkxcld
+  naicsCode:
+    type: string
+    description: 'The [North American Industry Classification System](https://en.wikipedia.org/wiki/North_American_Industry_Classification_System) of the business'
+    minLength: 5
+    maxLength: 6
+    x-stoplight:
+      id: xc98ouwmz7bdl
+  duns:
+    type: string
+    description: 'The [Dun & Bradstreet Number](https://www.dnb.com/duns.html) of the business'
+    minLength: 9
+    maxLength: 9
+    x-stoplight:
+      id: i9kc6k79v6jdp
+  mcc:
+    type: string
+    description: 'The [Merchant Category Code](https://en.wikipedia.org/wiki/Merchant_category_code) of the business'
+    minLength: 4
+    maxLength: 4
+    x-stoplight:
+      id: tqm79sbdutcbi
+required:
+  - id
+  - accountId
+  - active
+  - name

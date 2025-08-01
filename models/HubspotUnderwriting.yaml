@@ -1,0 +1,109 @@
+title: HubspotUnderwriting
+x-stoplight:
+  id: ik603uev3damn
+type: object
+description: Fields to be written from Flex to the Hubspot Underwriting Entity
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: elt7ad67ddkrf
+  bankingApplicationStatus:
+    type: string
+    x-stoplight:
+      id: 19bvf1037h90k
+    enum:
+      - unused
+      - incomplete
+      - pending
+      - approved
+      - denied
+  creditApplicationStatus:
+    type: string
+    x-stoplight:
+      id: taxqil21kxcxs
+    enum:
+      - unused
+      - incomplete
+      - pending
+      - approved
+      - denied
+  userType:
+    type: string
+    x-stoplight:
+      id: 12szjk25hyh4l
+    enum:
+      - employee
+      - owner
+      - accountant
+      - auditor
+      - admin
+  flexUserId:
+    type: string
+    x-stoplight:
+      id: qdog61jweg851
+    format: uuid
+  flexCompanyId:
+    type: string
+    x-stoplight:
+      id: ibh5s79o3ogo7
+    format: uuid
+  bankingApplicant:
+    type: string
+    x-stoplight:
+      id: fx57thj00aqh4
+    enum:
+      - 'yes'
+      - 'no'
+  creditApplicant:
+    type: string
+    x-stoplight:
+      id: te29x9bb83d7p
+    enum:
+      - 'yes'
+      - 'no'
+  ficoBand:
+    type: string
+    x-stoplight:
+      id: 1d6711tfjnnab
+    enum:
+      - NOT_PROCESSED_YET
+      - super_prime
+      - prime
+      - near_prime
+      - subprime
+  ficoStatus:
+    type: string
+    x-stoplight:
+      id: sehayz0d8v9fv
+    enum:
+      - frozen
+      - unfrozen
+  kycPassed:
+    type: boolean
+    x-stoplight:
+      id: ake8icjes7xez
+  kycPassedDate:
+    type: string
+    x-stoplight:
+      id: 82h2i253hh5sx
+    format: date-time
+  creditLimit:
+    type: number
+    x-stoplight:
+      id: yua58jg5c7pi6
+  lithicId:
+    type: string
+    x-stoplight:
+      id: 8yoxugtbwahhg
+    format: uuid
+  unitId:
+    type: string
+    x-stoplight:
+      id: kwfkz5ciholcz
+    format: uuid
+  creditLineApproved:
+    type: string
+    x-stoplight:
+      id: vrpgnwl8khvkw
+    format: date-time

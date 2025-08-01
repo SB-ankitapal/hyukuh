@@ -1,0 +1,100 @@
+title: HubspotCompany
+x-stoplight:
+  id: j138myr14pqec
+type: object
+description: Fields to be written from Flex to the Hubspot Company Entity
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: wp4orn340wwky
+  flexCompanyId:
+    type: string
+    x-stoplight:
+      id: dkt6ixrqh79g0
+    format: uuid
+  availableCredit:
+    type: number
+    x-stoplight:
+      id: xzb7s9utcb5lc
+  creditBalance:
+    type: number
+    x-stoplight:
+      id: n6zy45e2eg3x0
+  creditLimit:
+    type: number
+    x-stoplight:
+      id: rg63zvf34epf6
+  lithicId:
+    type: string
+    x-stoplight:
+      id: l1lr96md9bl18
+    format: uuid
+  unitId:
+    type: string
+    x-stoplight:
+      id: nphhh9tga8d8y
+    format: uuid
+  bankDeposits:
+    type: number
+    x-stoplight:
+      id: nsy0x57io7bb9
+  creditCashbackRebateBalance:
+    type: number
+    x-stoplight:
+      id: prbnbc0tq2ohi
+  creditCashbackNearTermDays:
+    type: number
+    x-stoplight:
+      id: dq3fmnefqgw63
+  creditCashbackFarTermDays:
+    type: number
+    x-stoplight:
+      id: bq1ihu7ejat89
+  creditCashbackNearTermPct:
+    type: number
+    x-stoplight:
+      id: tjvo991ibfpbl
+  creditCashbackFarTermPct:
+    type: number
+    x-stoplight:
+      id: hr5g2rom3tp7z
+  customerStartDate:
+    type: string
+    x-stoplight:
+      id: ova3clp6qdv4l
+    format: date
+  creditLineApproved:
+    type: string
+    x-stoplight:
+      id: pe6u29u828zmj
+    format: date-time
+  monthlySpend:
+    type: number
+    x-stoplight:
+      id: n2jfxw321hxv0
+  firstTransactionDate:
+    type: string
+    x-stoplight:
+      id: 81a7y0de19q1t
+    format: date-time
+  creditUtilization:
+    type: number
+    x-stoplight:
+      id: cw5p4t8jajz2g
+  annualRevenue:
+    type: string
+    x-stoplight:
+      id: w1849qtv5k3dp
+  alfredUrl:
+    type: string
+    x-stoplight:
+      id: qh91m26ed70vp
+  foundedYear:
+    type: string
+    x-stoplight:
+      id: esf2vhvuzdkv9
+  dbaName:
+    type: string
+    x-stoplight:
+      id: q2samhibk7gr4

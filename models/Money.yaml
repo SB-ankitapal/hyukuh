@@ -1,0 +1,28 @@
+title: Money
+x-stoplight:
+  id: cwq0idv22d7tx
+type: object
+description: Represents international money.
+properties:
+  value:
+    type: integer
+    description: The unscaled amount
+    x-stoplight:
+      id: ihuhtgo2inhrw
+  currency:
+    type: string
+    description: The ISO 4217 currency code
+    minLength: 3
+    maxLength: 3
+    x-stoplight:
+      id: vc4suf8sl4ydy
+  scale:
+    type: integer
+    minimum: 1
+    description: The scale to adjust the value by to represent the true amount
+    x-stoplight:
+      id: e5kgr5r27fvcq
+required:
+  - value
+  - currency
+  - scale
